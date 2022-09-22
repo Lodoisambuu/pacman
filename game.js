@@ -39,7 +39,7 @@ Date.now = function() { return new Date().getTime(); };
 function Game(id,params){
     var _ = this;
     var settings = {
-        width:960,						//画布宽度
+        width:961,						//画布宽度
         height:640						//画布高度
     };
     Object.assign(_,settings,params);
